@@ -1,0 +1,5 @@
+type Query{
+	traerPrestacion(id: ID!): Prestacion
+	traerPrestaciones:[Prestacion]
+	contarPrestaciones: Float
+}

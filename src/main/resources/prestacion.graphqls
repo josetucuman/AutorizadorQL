@@ -1,0 +1,7 @@
+type Prestacion {
+	id: ID!
+	codigo: String!
+	descripcion: String!
+	capitulo: Int
+	subCapitulo: Int
+}
