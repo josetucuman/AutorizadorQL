@@ -35,9 +35,9 @@ public class Prestacion {
 	
 	 
 	
-//	@OneToMany(mappedBy = "prestacion")
-//	private Set<Nomenclador> nomenclador;
-
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "TIPO_NOMENCLADOR", referencedColumnName = "TNO_COD", insertable = false, updatable = false)
+	private Nomenclador  nomencladores;
 
 
 	public Long getId() {
