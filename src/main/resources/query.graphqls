@@ -1,7 +1,6 @@
 type Query{
 	traerPrestacion(id: ID!): Prestacion
 	traerPrestaciones:[Prestacion]
-	traerNomencladores: [Nomenclador]
 	contarPrestaciones: Float
 	
 }

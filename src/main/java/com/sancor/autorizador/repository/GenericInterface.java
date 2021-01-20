@@ -1,8 +1,10 @@
 package com.sancor.autorizador.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface GenericInterface<T> extends JpaRepository<T, T>{
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface GenericInterface<T> {
 	
 	//Alguna busqueda particular
 	

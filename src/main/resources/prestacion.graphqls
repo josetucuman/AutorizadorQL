@@ -4,5 +4,4 @@ type Prestacion {
 	descripcion: String!
 	capitulo: Int
 	subCapitulo: Int
-	nomenclador: [Nomenclador]!
 }

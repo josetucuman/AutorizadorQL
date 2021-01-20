@@ -1,4 +1,0 @@
-type Nomenclador {
-	codigo: ID!
-	descripcion: String
-}

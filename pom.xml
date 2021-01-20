@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sancor</groupId>
-	<artifactId>autorizador</artifactId>
+	<artifactId>AutorizadorQL</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>AutorizadorQL</name>
 	<description>Demo project for Spring Boot</description>

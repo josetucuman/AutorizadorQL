@@ -1,7 +1,5 @@
 package com.sancor.autorizador.domain;
 
-import java.util.Set;
-
 import javax.persistence.*;
 
 import lombok.AllArgsConstructor;
@@ -35,9 +33,9 @@ public class Prestacion {
 	
 	 
 	
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "TIPO_NOMENCLADOR", referencedColumnName = "TNO_COD", insertable = false, updatable = false)
-	private Nomenclador  nomencladores;
+//	@ManyToOne(fetch = FetchType.LAZY)
+//	@JoinColumn(name = "TIPO_NOMENCLADOR", referencedColumnName = "TNO_COD", insertable = false, updatable = false)
+//	private List<Nomenclador>  nomencladores;
 
 
 	public Long getId() {
